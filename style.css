@@ -1,0 +1,108 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+}
+ .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+ }
+
+input {
+    caret-color: yellow;
+    color: yellowgreen;
+    display: block;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+label {
+ display: block;
+ margin-top: 10px;
+}
+
+input::placeholder {
+    color: blue;
+}
+
+input:focus {
+    border: 2px solid red ;
+}
+
+.flex {
+    display: flex;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+padding: 40px;
+position: relative;
+
+}
+
+.banner {
+    display: flex;
+    height: 550px;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+
+}  
+
+.right , .left {
+     width: 48%;
+}
+
+.left {
+    display:flex;
+align-items: start;
+flex-direction: column;
+}
+
+
+
+.contain {
+    display: flex;
+    justify-content: center;
+}
+ .left .title {
+    display: ;
+    font-size: larger;
+    text-align: center;
+    justify-content: flex-start;
+ }
+ .left .p {
+    font-size: medium;
+    text-align: justify;
+    padding-top: 20px;
+ }
+
+ .world {
+    width: 100%;
+    padding: 25px;
+ }
+
+.world:hover{
+    color: black;
+    background-color: #fff;
+}
+ .riri {
+    padding: 10 25px;
+ }
